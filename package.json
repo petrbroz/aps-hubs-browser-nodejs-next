@@ -1,0 +1,14 @@
+{
+  "name": "aps-hubs-browser-nodejs-next",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cookie-session": "^2.1.0",
+    "dotenv": "^16.4.1",
+    "forge-apis": "^0.9.9",
+    "restify": "^11.1.0"
+  }
+}
