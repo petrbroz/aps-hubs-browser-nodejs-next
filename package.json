@@ -6,9 +6,11 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "cookie-session": "^2.1.0",
+    "@fastify/cookie": "^9.3.1",
+    "@fastify/session": "^10.7.0",
+    "@fastify/static": "^6.12.0",
     "dotenv": "^16.4.1",
-    "forge-apis": "^0.9.9",
-    "restify": "^11.1.0"
+    "fastify": "^4.26.0",
+    "forge-apis": "^0.9.9"
   }
 }
